@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head SCARECROW STUDIO -->
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		
+		<title>SCARECROW STUDIO</title>
+		<link rel="shortcut icon" href="assets/images/icon.png">
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Additional CSS Files -->
+		<link rel="stylesheet" href="assets/css/fontawesome.css">
+		<link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
+		<link rel="stylesheet" href="assets/css/owl.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+		
+		<!-- Email JS -->
+		<script type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		   (function(){
+			  emailjs.init({
+				publicKey: "3pssabpq6YHtE7YP1",
+			  });
+		   })();
+		</script>
+	</head>
+	
+	<body>
+	<!-- Preloader SCARECROW STUDIO -->
+	<div id="js-preloader" class="js-preloader">
+		<div class="preloader-inner">
+			<span class="dot"></span>
+			<div class="dots">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Menu SCARECROW STUDIO -->
+	<header class="header-area header-sticky">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="main-nav">
+						<a href="index.html" class="logo">
+							<img src="assets/images/logo.png" alt="" style="width: 158px;">
+						</a>
+						<ul class="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="https://saweria.co/DavidHariadi">Donate Me (Saweria)</a></li>
+							<li><a href="https://www.youtube.com/@HorribleScare">Support Me (YouTube)</a></li>
+							<li><a href="contact.html">REQUEST MOD</a></li>
+						</ul>
+						<a class='menu-trigger'>
+							<span>Menu</span>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- Breadcrumb Navigation SCARECROW STUDIO -->
+	<div class="page-heading header-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3>Request MOD</h3>
+					<span class="breadcrumb"><a href="index.html">Home</a>  >  Request MOD</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Contact Page SCARECROW STUDIO -->
+	<div class="contact-page section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 align-self-center">
+					<div class="left-text">
+						<div class="section-heading">
+							<h6>REQUEST MOD</h6>
+							<h2>Tell Me What You Need</h2>
+						</div>
+						
+						<p class="justified-text">Looking for a specific Android MOD games or apps? Submit your request here and let
+							SCARECROW STUDIO help you find the MOD version with unlocked and enhanced features.</p>
+						
+						<ul>
+							<li><span>Instagram</span> @furry.diary</li>
+							<li><span>Phone</span> (+62) 877 0853 9142</li>
+							<li><span>Gmail</span> davidhariadi2024@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="right-content">
+						<div class="row">
+							<div class="col-lg-12">
+								<div id="map">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.765138492675!2d106.7983308!3d-6.1336453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f102651c01c1%3A0xc0bd3fa56fa7c0d6!2sJakarta%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2C%20Indonesia!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+										width="100%" height="350" style="border-radius: 30px; border: none;" allowfullscreen="" loading="lazy"
+										referrerpolicy="no-referrer-when-downgrade">
+									</iframe>
+								</div>
+							</div>
+							
+							<div class="col-lg-12">
+								<form id="contact-form" action="" method="post">
+									<div class="row">
+										<div class="col-lg-6">
+											<fieldset>
+												<input type="text" id="name" name="name" placeholder="First Name">
+											</fieldset>
+										</div>
+										<div class="col-lg-6">
+											<fieldset>
+												<input type="text" id="lastname" name="lastname" placeholder="Last Name">
+											</fieldset>
+										</div>
+										<div class="col-lg-6">
+											<fieldset>
+												<input type="email" id="email" name="email" placeholder="Your Gmail">
+											</fieldset>
+										</div>
+										<div class="col-lg-6">
+											<fieldset>
+												<input type="text" id="subject" name="subject" placeholder="Subject of Your Message">
+											</fieldset>
+										</div>
+										<div class="col-lg-12">
+											<fieldset>
+												<textarea id="message" name="message" placeholder="Your Message"></textarea>
+											</fieldset>
+										</div>
+										<div class="col-lg-12">
+											<fieldset>
+												<button type="button" id="form-submit" class="orange-button" onclick="sendMail(event)">
+													SEND
+												</button>
+											</fieldset>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer SCARECROW STUDIO -->
+	<footer>
+		<div class="container">
+			<div class="col-lg-12">
+				<p>© 2026 | SCARECROW STUDIO | All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Scripts -->
+	<!-- Bootstrap Core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/isotope.min.js"></script>
+	<script src="assets/js/owl-carousel.js"></script>
+	<script src="assets/js/counter.js"></script>
+	<script src="assets/js/custom.js"></script>
+	
+	<!-- Script JS -->
+	<script src="assets/js/script.js"></script>
+	
+	</body>
+</html>
