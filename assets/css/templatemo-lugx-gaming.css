@@ -1705,3 +1705,7 @@ body {
 .btn-download:hover {
   background: #256428;
 }
+.most-played .item .down-content h4 {
+  min-height: 44px; /* Pas Untuk 2 Baris */
+  line-height: 22px;
+}
