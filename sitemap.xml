@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://horriblescare.github.io/Scarecrow-Studio/index.html</loc>
-  <lastmod>2026-01-16T08:26:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://horriblescare.github.io/Scarecrow-Studio/contact.html</loc>
   <lastmod>2026-01-16T08:26:30+00:00</lastmod>
   <priority>0.80</priority>
@@ -42,6 +37,7 @@
   <lastmod>2026-01-16T08:26:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 
 
 </urlset>
