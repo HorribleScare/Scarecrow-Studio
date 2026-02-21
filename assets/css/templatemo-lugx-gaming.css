@@ -1705,6 +1705,19 @@ body {
 .btn-download:hover {
   background: #256428;
 }
+.btn-youtube {
+  display: inline-block;
+  background: #ff0000;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.btn-youtube:hover {
+  background: #cc0000;
+}
 .most-played .item .down-content h4 {
   min-height: 44px; /* Pas Untuk 2 Baris */
   line-height: 22px;
